@@ -4,5 +4,3 @@
 ## Gachon-AISTUDY
 
 ## 개인 스터디
-### 머신러닝 입문 강좌 TeamLab
-### 기타 스터디

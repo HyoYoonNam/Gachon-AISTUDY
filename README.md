@@ -1,5 +1,4 @@
 # README
-**PyTorch - StatQuest**  
 4개의 선행지식을 기반으로 배우는 PyTorch
   * [The Essential Main Ideas of Neural Networks](https://youtu.be/CqOfi41LfDw)
   * [Neural Networks Pt. 2: Backpropagation Main Ideas](https://youtu.be/IN2XmBhILt4)

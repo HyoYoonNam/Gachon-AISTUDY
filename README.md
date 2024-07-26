@@ -5,3 +5,6 @@
   * [Neural Networks Pt. 3: ReLU In Action!!!](https://youtu.be/68BZ5f7P94E)
   * [Tensors for Neural Networks, Clearly Explained!!!](https://youtu.be/L35fFDpwIM4)
   * [The StatQuest Introduction to PyTorch](https://youtu.be/FHdlXe1bSe4)
+
+# Topic
+[Normalization vs Standardization](https://medium.com/@meritshot/standardization-v-s-normalization-6f93225fbd84)

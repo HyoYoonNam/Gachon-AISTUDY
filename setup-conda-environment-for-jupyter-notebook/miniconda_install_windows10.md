@@ -45,5 +45,3 @@ conda activate gc_ml_scratch
 :: working directory를 workspace로 설정하고 수행할 것
 (gc_ml_scratch) jupyter notebook
 ```
-
-나중에 참고할 것: [CUDA 설치](https://80000coding.oopy.io/d8131e92-bde9-4526-a604-217ef31d5a86)

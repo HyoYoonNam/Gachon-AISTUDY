@@ -11,7 +11,7 @@
 ```cmd
 :: conda virtual environment(가상 환경) 생성
 :: 'gc_ml_scratch' 부분은 본인이 원하는 가상 환경의 이름으로 변경 가능
-conda create -n gc_ml_scratch python=3.6 -y
+conda create -n gc_ml_scratch python=3.9 -y
 conda init
 :: 이후에 cmd 재실행
 ```

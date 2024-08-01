@@ -34,13 +34,15 @@ conda activate gc_ml_scratch
 (gc_ml_scratch) conda install juptyer pandas matplotlib seaborn -y
 ```
 
+
+# 3. (중요)ipython kernel을 conda environment로 지정하기
 ```cmd
 :: conda env를 ipython(jupyter notebook)의 kernel로 사용하도록 지정
 (gc_ml_scratch) conda install ipykernel
 (gc_ml_scratch) ipython kernel install --name gc_ml_scratch --user
 ```
 
-# 3. Jupyter Notebook 실행
+# 4. Jupyter Notebook 실행
 ```cmd
 :: Jupyter Notebook 실행
 :: working directory를 workspace로 설정하고 수행할 것

@@ -52,7 +52,7 @@ True
 이제 pytorch에서 gpu(cuda)를 사용할 수 있다. 물론 cpu도 사용할 수 있다.
 
 # 6. Jupyter Notebook에서 cuda 사용하기
-해당 챕터를 진행하기 전에 ipython의 kernel을 `gc_ml_scratch`로 설정해야 한다.  자세한 방법은 [여기](https://github.com/rudevico/Gachon-AISTUDY/blob/main/setup-conda-environment-for-jupyter-notebook/miniconda_install_windows10.md#2-conda-%EA%B8%B0%EB%B3%B8-%EC%84%A4%EC%A0%95)를 참고.
+해당 챕터를 진행하기 전에 ipython의 kernel을 `gc_ml_scratch`로 설정해야 한다.  자세한 방법은 [여기](https://github.com/rudevico/Gachon-AISTUDY/blob/main/setup-conda-environment-for-jupyter-notebook/miniconda_install_windows10.md#3-%EC%A4%91%EC%9A%94ipython-kernel%EC%9D%84-conda-environment%EB%A1%9C-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0)를 참고.
 ```cmd
 :: python에서 exit()하고, 다음 명령을 실행
 (gc_ml_scratch) jupyter notebook

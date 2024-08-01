@@ -21,22 +21,29 @@ conda init
 :: conda deactivate로 진입한 virtual env를 비활성화 가능
 conda activate gc_ml_scratch
 
+:: 지금부터 gc_ml_scratch environment에서 진행됨
+
 :: workspace 생성 후 이동
 :: 'gc_ml_scratch' 부분은 본인이 원하는 workspace 이름으로 변경 가능
-mkdir C:\gc_ml_scratch && cd C:\gc_ml_scratch
+(gc_ml_scratch) mkdir C:\gc_ml_scratch && cd C:\gc_ml_scratch
 ```
 
 ```cmd
 :: 기본 library 설치
 :: numpy는 pandas설치 시 종속적으로 설치됨
-conda install juptyer pandas matplotlib seaborn -y
+(gc_ml_scratch) conda install juptyer pandas matplotlib seaborn -y
 ```
+
+```cmd
+:: conda env를 ipython(jupyter notebook)의 kernel로 사용하도록 지정
+(gc_ml_scratch) conda install ipykernel
+(gc_ml_scratch) ipython kernel install --name gc_ml_scratch --user
 
 # 3. Jupyter Notebook 실행
 ```cmd
 :: Jupyter Notebook 실행
 :: working directory를 workspace로 설정하고 수행할 것
-jupyter notebook
+(gc_ml_scratch) jupyter notebook
 ```
 
 나중에 참고할 것: [CUDA 설치](https://80000coding.oopy.io/d8131e92-bde9-4526-a604-217ef31d5a86)

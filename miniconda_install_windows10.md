@@ -29,7 +29,7 @@ mkdir C:\gc_ml_scratch && cd C:\gc_ml_scratch
 ```cmd
 :: 기본 library 설치
 :: numpy는 pandas설치 시 종속적으로 설치됨
-conda install juptyer pandas matplotlib -y
+conda install juptyer pandas matplotlib seaborn -y
 ```
 
 # 3. Jupyter Notebook 실행

@@ -31,7 +31,7 @@ conda activate gc_ml_scratch
 ```cmd
 :: 기본 library 설치
 :: numpy는 pandas설치 시 종속적으로 설치됨
-(gc_ml_scratch) conda install juptyer pandas matplotlib seaborn -y
+(gc_ml_scratch) conda install juptyer pandas matplotlib seaborn scikit-learn -y
 ```
 
 

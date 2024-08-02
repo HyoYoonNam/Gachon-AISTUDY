@@ -36,6 +36,11 @@ Understanding these differences is crucial for optimizing performance and memory
 
 
 # How to convert dtype of pandas.dataframe
+csv나 excel 등의 dataset을 pandas.dataframe으로 불러왔을 때 기본적으로 numerical하지 않은 categorical data는 `object` dtype을 사용하게 된다.  
+dataset의 features나 label이 numerical하지 않으면 이후에 많은 제약이 발생하기 때문에 이를 numerical하게 변경해야 한다.  
+
 ```python
 import pandas as pd
+
+df = pd.read_csv('https://raw.githubusercontent.com/gilbutITbook/080289/main/chap02/data/car_evaluation.csv')
 ```

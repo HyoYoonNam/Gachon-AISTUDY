@@ -18,7 +18,7 @@ perceptron을 여러 개 연결한 것 즉, 2개 이상의 input node와 2개 �
 > 굳이 분류를 하자면, NN은 ML이고 DNN부터 DL이라고 할 수 있겠다.
 
 ## Deep Neural Network; DNN; 심층 신경망
-multi-layer perceptron을 여러 개 연결한 것 즉, 2개 이상의 input node, 2개 이상의 out node, 2개 이상의 hidden layer가 존재한다.
+multi-layer perceptron을 여러 개 연결한 것 즉, 2개 이상의 input node, 2개 이상의 output node, 2개 이상의 hidden layer가 존재한다.
 
 
 

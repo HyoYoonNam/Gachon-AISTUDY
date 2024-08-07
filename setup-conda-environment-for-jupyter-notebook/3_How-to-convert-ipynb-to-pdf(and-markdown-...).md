@@ -9,9 +9,9 @@ nbconvert failed: xelatex not found on PATH, if you have not installed xelatex y
 * * *
 # 1. How to handle this error
 1. install the pandoc
-   `conda install pandoc`
+   `(gc_ml_scratch) conda install pandoc`
 2. install the nbconvert
-   `conda install nbconvert`
+   `(gc_ml_scratch) conda install nbconvert`
 3. install the [miktex](https://anaconda.org/conda-forge/miktex)  
    `(gc_ml_scratch) conda install conda-forge::miktex`
 

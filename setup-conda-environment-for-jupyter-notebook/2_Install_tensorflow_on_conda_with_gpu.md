@@ -70,4 +70,19 @@ REM 다음 사진 참고하여 노트북 생성
 *다음 사진 참고하여 생성한 notebook의 kernel을 'gc_ml_tf'로 설정*  
 
 ![set kernel to 'gc_ml_tf'](./Images/2I_Image2.JPG)  
-*kernel을 'gc_ml_tf'로 설정*
+*kernel을 'gc_ml_tf'로 설정*  
+
+**이후부터는 jupyter notebook의 python 환경에서 진행됨**  
+```python
+import tensorflow as tf
+
+# 기본적으로 TensorFlow는 gpu가 사용가능하다면 gpu memory에 변수를 할당함
+# 즉 별도의 설정없이 그냥 사용하면 됨
+tensor_on_gpu = tf.constant([[1.0, 2.0], [3.0, 4.0]])
+print(tensor_on_gpu.device)
+> /job:localhost/replica:0/task:0/device:GPU:0 # GPU에 할당됨
+```
+
+
+# References
+https://www.tensorflow.org/install/pip#windows-native

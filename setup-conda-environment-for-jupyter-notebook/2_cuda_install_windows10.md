@@ -28,7 +28,7 @@ nvidia-smi
 
 
 # 4. Download pytorch and cuda on Conda Environment
-[참고](https://github.com/rudevico/Gachon-AISTUDY/blob/main/conda/miniconda_install_windows10.md) 지금부터 기존에서 만들어뒀던 conda env에서 진행한다.  
+[참고](https://github.com/rudevico/Gachon-AISTUDY/blob/main/setup-conda-environment-for-jupyter-notebook/1_miniconda_install_windows10.md) 지금부터 기존에서 만들어뒀던 conda env에서 진행한다.  
 ```cmd
 :: pytorch, torchvision, torchaudio, pytorch-cuda 설치
 (gc_ml_scratch) conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 cudatoolkit=11.8 -c pytorch -c nvidia

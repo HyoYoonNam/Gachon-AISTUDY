@@ -1,5 +1,4 @@
 # README
-2024.09 ~ 딥러닝 응용 수업
 
 # Topic
 [Normalization vs Standardization](https://medium.com/@meritshot/standardization-v-s-normalization-6f93225fbd84)  
